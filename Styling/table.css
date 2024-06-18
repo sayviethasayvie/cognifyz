@@ -1,1 +1,41 @@
+body{
+    background-color: black;
+    margin-top: 100px;
+}
 
+table{
+    width: 100%;
+    background-color: deepskyblue;
+    text-align: center;
+   border-collapse: collapse;
+  
+}
+table{
+    border: 1px solid red;
+}
+th{
+    background-color: chartreuse;
+}
+.hi{
+    background-color: coral;
+}
+.one{
+    background-color: pink;
+}
+.two{
+    background-color: khaki;
+}
+.t1{
+    background-color: rgb(101, 128, 239);
+}
+.t2{
+    background-color: rosybrown;
+}
+.t3{
+    background-color: springgreen;
+}
+table:hover{
+    box-shadow: inset 3px 2px 1px 2px white;
+   transition: 2s;
+   transform: translateY(-20px);
+}
