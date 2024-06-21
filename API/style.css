@@ -1,1 +1,30 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 500px;
+}
+
+#apiData {
+    margin-top: 20px;
+}
+
+#postsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#postsList li {
+    background: #f4f4f4;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
 
